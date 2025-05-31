@@ -1,0 +1,23 @@
+networks:
+  dev:
+
+services:
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "8000:8000"
+    networks:
+      - dev
+    # environment:
+    #   - VITE_SERVER_HOST=127.0.0.1
+  
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "29180:29180"
+    networks:
+      - dev
+    # environment:
+    #   - ASPNETCORE_URLS=http://127.0.0.1:29180
