@@ -1,5 +1,7 @@
 ## Refactored version
-[Refactored project](https://github.com/Rope-IRL/RefactoredRentApiOpen)
+[Refactored project link](https://github.com/Rope-IRL/RefactoredRentApiOpen)
+
+# Main information
 
 Welcome to Real Estate Rental, your ultimate platform for discovering and booking a wide range of accommodations, from cozy apartments and spacious houses to convenient hotel rooms.
 To manage flats, houses, and users, **the** project uses ASP.NET with a sliced architecture and different behavior for authorized and **unauthorized** users.
